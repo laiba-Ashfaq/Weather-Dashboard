@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="java.js" defer></script><!--defer attribute tell the browser to wait until the page has finished parsing before executing the script-->
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+    <div class="loading">Loading...</div><!-- Placeholder for loading indicator -->
+    <div class="container">
+        <div class="weather-input">
+            <h3>Enter a City Name</h3>
+            <input class="city-input"type="text" placeholder="E.g New York ,London ,Tokyo."><!-- Input field for entering city name -->
+            <button class="search-btn">Search</button><!-- Button to initiate city search -->
+            <div class="separator"></div> <!-- Separator line -->
+            <button class="location-btn">Use Current Location</button> <!-- Button to use current location -->
+        </div>
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>-_______ (_____)</h2><!-- Placeholder for current weather details -->
+                    <h4>Temp:__ºC</h4>
+                    <h4>Wind Speed:__ M/S</h4>
+                    <h4>Humidity:__%</h4>
+                </div>
+            </div>
+            <div class="days-forcast">
+                <h2>5-Days Forcast</h2>
+                <ul class="weather-cards">
+                    <li class="cards"> <!-- Repeat similar structure for 5 forecast cards -->
+                        <h2>( _____ )</h2><!--dashes as placeholder--><!-- Placeholder for forecast date -->
+                        <h4>Temp:__ºC</h4>
+                        <h4>Wind Speed:__ M/S</h4>
+                        <h4>Humidity:__%</h4>
+                    </li>
+                    <li class="cards">
+                        <h2>( _____ )</h2>
+                        <h4>Temp:__ºC</h4>
+                        <h4>Wind Speed:__ M/S</h4>
+                        <h4>Humidity:__%</h4>
+                    </li>
+                    <li class="cards">
+                        <h2>( _____ )</h2>
+                        <h4>Temp:__ºC</h4>
+                        <h4>Wind Speed:__ M/S</h4>
+                        <h4>Humidity:__%</h4>
+                    </li>
+                    <li class="cards">
+                        <h2>( _____ )</h2>
+                        <h4>Temp:__ºC</h4>
+                        <h4>Wind Speed:__ M/S</h4>
+                        <h4>Humidity:__%</h4>
+                    </li>
+                    <li class="cards">
+                        <h2>( _____ )</h2>
+                        <h4>Temp:__ºC</h4>
+                        <h4>Wind Speed:__ M/S</h4>
+                        <h4>Humidity:__%</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
