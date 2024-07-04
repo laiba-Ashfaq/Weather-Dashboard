@@ -19,8 +19,7 @@ Description
 This project is a weather dashboard that provides real-time weather updates using a third-party API.
 Setup Instructions<br>
 1.Clone the Repository<br>
-git clone https://github.com/your-laiba-Ashfaq/weather-dashboard.git
-cd weather-dashboard<br>
+git clone https://github.com/your-laiba-Ashfaq/weather-dashboard.gitcd weather-dashboard<br>
 2.Install Dependencies<br>
 npm install<br>
 3.Get OpenWeather API Key<br>
